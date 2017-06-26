@@ -1,0 +1,103 @@
+
+/**	HEADER **/
+
+
+
+
+.navbar .container
+{
+  width: 1342px;
+  height: 50px;
+  margin: 5px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  flex-flow: no-wrap; 
+}
+
+ .navbar .container .nav {
+  text-align: center;
+}
+
+
+
+/* ------> MAIN PICTURE*/
+
+
+/* ------> RESUME */
+
+.resume 
+{
+    padding-top: 90px;
+	height:690px;
+}
+
+
+	
+ .containerflexafter .cerintatema 
+  {
+        font-size:50px;  
+		padding-top:50px;
+  }	
+		
+.containerflex 
+  {
+        width: 1000px;
+        height: 200px;
+        display: flex;
+        padding-top:50px; 
+       		
+  }
+	
+.containerflex .element1
+{
+    background-color: yellow;
+    border: 3px solid green;   
+	flex-basis:25px;
+ }
+ .containerflex .element2 
+{
+    background-color: yellow;
+    border: 3px solid green;
+	flex-shrink:2;
+            
+ }
+ 
+ .containerflex .element3 
+{
+     background-color: yellow;
+     border: 3px solid green;
+     align-self: flex-start;
+ }
+ 
+ .containerflex .element4 
+{
+    background-color: yellow;
+    border: 3px solid green;
+    flex-direction:column ;
+	flex-grow:5;
+ }
+ 
+ .containerflex .element5 
+{
+     background-color: yellow;
+     border: 3px solid green;
+     flex-direction:row; 
+	 flex-grow:10; 
+	 flex-wrap: wrap;      
+ }
+
+ 
+
+
+
+
+/* ------> CONTACTS */
+
+
+
+/* ------> PROJECTS */
+
+
+
+/* ------>FOOTER */
