@@ -29,7 +29,7 @@
 .about-me 
 {
     padding-top: 90px;
-	height:700px;
+	height:790px;
 	
 }
 
@@ -57,9 +57,33 @@
 .about-me .lista
 {
  	padding-left:80px;
+	
 }
 
+.about-me .panel
+{
+	padding-top:10px;
+	margin-right: 300px;
+	background-color:gray;
+}
+
+
+.about-me .h2-abot-me
+{
+	font-size:25px;
+}
+
+.about-me .fa
+{
+	padding-left:10px;
+	font-size:25px;
+}
+
+
+
+
 /** SKILLS **/
+
 
 
 
@@ -69,7 +93,7 @@
 {
     padding-top: 90px;
 	padding-bottom:50px;
-	height:2400px;
+	height:2500px;
 }
 
 .resume .h1-resume 
@@ -229,12 +253,68 @@
 
 
 
-/* ------> CONTACTS */
-
-
-
 /* ------> PROJECTS */
 
+.projects 
+{
+    padding-top: 90px;
+	padding-bottom:50px;
+	height:1730px;
+}
+
+.projects .h1-projects
+{
+    text-align:center;
+}
+
+
+
+.projects .panel2
+{
+	
+	margin-left: 50px;
+	
+}
+
+.projects .panel3
+{
+	margin-left:200px;
+	margin-right:200px;
+	margin-top:950px;
+	
+}
+
+
+.projects .panelbody1
+{
+  background-color:yellow;
+  padding-bottom:235px;
+	
+}
+
+.projects .panelbody2
+{
+  background-color:yellow;
+  padding-bottom:30px;
+	
+}
+
+.projects .panelbody3
+{
+  background-color:yellow;
+  padding-bottom:30px;
+  
+	
+}
+
+
+.projects .h2-projects
+{
+	font-size:25px;
+}
+
+
+/* ------> CONTACTS */
 
 
 /* ------>FOOTER */
