@@ -2,8 +2,6 @@
 /**	HEADER **/
 
 
-
-
 .navbar .container
 {
   width: 1342px;
@@ -22,6 +20,38 @@
 
 
 /* ------> MAIN PICTURE*/
+
+.main-picture {
+    padding-top: 90px;
+	background-color:brown;
+}	
+
+.main-picture::after {
+    padding-bottom: 50px;
+}
+.main-picture img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+	margin-left:40px;
+	width: 500px;
+	height:500px;
+	border: 10px solid gray; 
+}
+.main-picture .button {
+	 margin-top: 35px; 
+}
+
+.main-picture .first-h1 {
+     font-size: 60px; 
+	 margin-top: 150px;
+	 margin-left:40px;
+}
+.main-picture .second-h1 {
+    font-size:30px; 
+	 margin-top: 20px;
+	 margin-left:40px;
+}
+
 
 
 /* ------> ABOUT ME */ 
@@ -315,6 +345,31 @@
 
 
 /* ------> CONTACTS */
+
+.contacts
+{
+    padding-top: 50px;
+	padding-bottom:1000px;
+}
+
+.contacts .h1-contacts 
+{
+	    text-align:center;
+}
+
+.contacts .harta
+{
+	padding-right:100px;
+	margin-top:100px;
+    margin-right: 100px;
+	margin-left:100px;
+	padding: 20px;
+}
+
+.contacts .datecontact
+{
+	font-size:25px;
+}
 
 
 /* ------>FOOTER */
